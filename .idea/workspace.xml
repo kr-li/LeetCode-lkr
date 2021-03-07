@@ -11,7 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a965ff-a1f1-47a8-9d9a-d881d3978bae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/栈相关/LeetCode20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/栈相关/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表操作/Leetcode206.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表操作/Leetcode61.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表操作/Leetcode61.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +68,7 @@
       <workItem from="1614776935947" duration="1445000" />
       <workItem from="1614929718480" duration="204000" />
       <workItem from="1614929925878" duration="38000" />
-      <workItem from="1614930159414" duration="2316000" />
+      <workItem from="1614930159414" duration="4522000" />
     </task>
     <servers />
   </component>
@@ -88,5 +92,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1614930406962" />
+    <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615095843462">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1615095843462" />
   </component>
 </project>
