@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a965ff-a1f1-47a8-9d9a-d881d3978bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/栈相关/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数组操作/Leetcode73.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数组操作/Leetcode54.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数组操作/Leetcode54.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <workItem from="1614929925878" duration="38000" />
       <workItem from="1614930159414" duration="6069000" />
       <workItem from="1615206190658" duration="227000" />
-      <workItem from="1615516272308" duration="134000" />
+      <workItem from="1615516272308" duration="1895000" />
     </task>
     <servers />
   </component>
