@@ -11,13 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a965ff-a1f1-47a8-9d9a-d881d3978bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/快慢指针遍历/Leetcode141.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/快慢指针遍历/Leetcode202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/快慢指针遍历/Leetcode876.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树的遍历/Leetcode102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树的遍历/Leetcode110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树的遍历/Leetcode144.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树的遍历/Leetcode145.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树的遍历/Leetcode94.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树的遍历/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-lkr/链表操作/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode-lkr/链表操作/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表操作/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表操作/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-lkr/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode-lkr/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +80,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2" />
+      <module name="LeetCode-lkr" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Leetcode581" />
       </list>
     </recent_temporary>
@@ -103,7 +113,8 @@
       <workItem from="1615516272308" duration="2502000" />
       <workItem from="1616029525860" duration="60000" />
       <workItem from="1616142504276" duration="3680000" />
-      <workItem from="1616307604637" duration="3479000" />
+      <workItem from="1616307604637" duration="8669000" />
+      <workItem from="1616482300016" duration="2907000" />
     </task>
     <servers />
   </component>
@@ -127,22 +138,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1614930406962" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1616318504172">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1616481866873">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1616318504172" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1616318504171">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1616481866873" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1616481866873">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1616318504171" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1616318504170">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1616481866873" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1616481866872">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1616318504170" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1616318504171">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1616481866872" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1616481866873">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1616318504171" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1616481866873" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1616237848753">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -163,5 +174,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1615095843462" />
+    <state x="458" y="205" key="extract.method.dialog" timestamp="1616486351646">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="205" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1616486351646" />
   </component>
 </project>
