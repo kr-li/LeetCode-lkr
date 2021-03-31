@@ -16,7 +16,7 @@ public class Leetcode145 {
 
         while (!stack.empty()) {
             TreeNode temp = stack.pop();
-            rs.addFirst(temp.val);
+            rs.addFirst(temp.val); //在此处链表头添加结点
             if (temp.left != null) {
                 stack.push(temp.left);
             }
