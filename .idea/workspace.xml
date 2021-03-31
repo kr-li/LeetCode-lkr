@@ -11,25 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a965ff-a1f1-47a8-9d9a-d881d3978bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/二叉搜索树/Leetcode450.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/二叉搜索树/Leetcode701.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/二叉搜索树/Leetcode98.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/双指针遍历/Leetcode11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/双指针遍历/Leetcode15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/双指针遍历/Leetcode3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/递归/Leetcode101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/递归/Leetcode104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/递归/Leetcode1325.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/递归/Leetcode21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/递归/Leetcode226.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/递归/MaxVal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/双指针遍历/Leetcode16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/双指针遍历/Leetcode26.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-lkr/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode-lkr/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-lkr/Test2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-lkr/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/树的遍历/Leetcode145.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树的遍历/Leetcode145.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/树的遍历/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树的遍历/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +110,7 @@
       <workItem from="1616307604637" duration="8669000" />
       <workItem from="1616482300016" duration="10455000" />
       <workItem from="1616932661921" duration="7737000" />
-      <workItem from="1617093937679" duration="919000" />
+      <workItem from="1617093937679" duration="3868000" />
     </task>
     <servers />
   </component>
