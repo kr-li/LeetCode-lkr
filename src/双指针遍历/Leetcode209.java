@@ -9,22 +9,18 @@ public class Leetcode209 {
     }
 
     public int minSubArrayLen(int target, int[] nums) {
-        int ans = nums.length;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == target) return 1;
-            int j = i + 1;
-            int sum = nums[i];
-            while (j < nums.length){
-                sum += nums[j];
-                if (sum > target) {
-                    break;
-                }
-                if (sum == target) {
-                    ans = Math.min(ans, j - i + 1);
-                }
-                j++;
+        int start = 0, end = 0;
+        int ans = Integer.MAX_VALUE;
+        int sum = 0;
+        while (end < nums.length){
+            sum += nums[end];
+            while (sum >= target){
+                ans = Math.min(ans, end - start + 1);
+                sum -= nums[start];
+                start++;
             }
+            end--;
         }
-        return ans == nums.length ? 0 : ans;
+        return ans == Integer.MAX_VALUE ? 0 : ans;
     }
 }

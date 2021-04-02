@@ -15,7 +15,13 @@ public class Test {
         System.out.println(s);
     }
 
+    public void test(){
+        System.out.println(1);
+
+    }
+
     public int result(int[] stones, int m){
+
         int[] dp = new int[m];
         dp[0] = stones[0];
         dp[1] = stones[1];
