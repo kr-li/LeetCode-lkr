@@ -1,41 +1,46 @@
 import 树的遍历.TreeNode;
 
-import java.util.LinkedHashMap;
-import java.util.Scanner;
+import java.util.*;
+
 public class Test {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int k = scanner.nextInt();
+        int[] house = new int[n];
+        for (int i = 0; i < n; i++) {
+            house[i] = scanner.nextInt();
+        }
+        int ans = help(house, k);
+        System.out.println(ans);
 
-        Test t = new Test();
-        int[] arr = new int[9];
+    }
+
+    public static int help(int[] arr, int k){
+        List<Integer> zeroIndexArr = new ArrayList<>();
+        Map<Integer, Integer> houseIndexDistance = new HashMap<>();
+        
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = i;
+            if (arr[i] == 0){
+                zeroIndexArr.add(i);
+            }
         }
 
-        int s = t.result(arr, 9);
-        System.out.println(s);
-    }
+        int minDistance = Integer.MAX_VALUE;
 
-    public void test(){
-        System.out.println(1);
-
-    }
-
-    public int result(int[] stones, int m){
-
-        int[] dp = new int[m];
-        dp[0] = stones[0];
-        dp[1] = stones[1];
-        dp[2] = stones[2];
-        dp[3] = stones[3];
-        dp[4] = stones[4];
-        dp[5] = stones[5];
-        for (int i = 6; i < m; i++) {
-            dp[i] = stones[i] + Math.min(Math.min(dp[i-3], dp[i-4]), dp[i-5]);
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != 0 && arr[i] <= k){
+                for (int j = 0; j < zeroIndexArr.size(); j++) {
+                    minDistance = Math.min(minDistance, Math.abs(i - zeroIndexArr.get(j)));
+                }
+                houseIndexDistance.put(minDistance, i);
+                minDistance = Integer.MAX_VALUE;
+            }
         }
-        int min = Integer.MAX_VALUE;
-        for (int i = 6; i < m; i++) {
-            min = Math.min(dp[i], min);
+        int newMinDistance = Integer.MAX_VALUE;
+        for (Map.Entry<Integer, Integer> entry : houseIndexDistance.entrySet()){
+            newMinDistance = Math.min(newMinDistance, entry.getKey());
         }
-        return min;
+        return houseIndexDistance.get(newMinDistance) + 1;
     }
 }

@@ -11,11 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a965ff-a1f1-47a8-9d9a-d881d3978bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/多线程/ThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/多线程/ThreadTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/动态规划/Leetcode53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/动态规划/Leetcode62.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/动态规划/Leetcode64.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode-lkr/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode-lkr/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-lkr/双指针遍历/Leetcode209.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode-lkr/双指针遍历/Leetcode209.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-lkr/多线程/SameThread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-lkr/多线程/ThreadTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode-lkr/多线程/ThreadTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/Leetcode5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/Leetcode5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,37 +59,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Application.ThreadTest2">
-    <configuration name="Leetcode121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="双指针遍历.Leetcode121" />
-      <module name="LeetCode-lkr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="双指针遍历.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Leetcode209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="双指针遍历.Leetcode209" />
-      <module name="LeetCode-lkr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="双指针遍历.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test3">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="LeetCode-lkr" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2" />
+      <module name="LeetCode-lkr" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test3" />
       <module name="LeetCode-lkr" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ThreadTest2" />
         <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.Leetcode209" />
-        <item itemvalue="Application.Leetcode121" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +143,11 @@
       <workItem from="1617093937679" duration="4271000" />
       <workItem from="1617286950208" duration="4814000" />
       <workItem from="1617444477523" duration="3995000" />
-      <workItem from="1617512211039" duration="645000" />
+      <workItem from="1617512211039" duration="2773000" />
+      <workItem from="1617864378555" duration="1122000" />
+      <workItem from="1617962593457" duration="20000" />
+      <workItem from="1617975928740" duration="6376000" />
+      <workItem from="1618406410165" duration="1692000" />
     </task>
     <servers />
   </component>
@@ -173,46 +171,50 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1617446820911" />
-    <state width="1398" height="155" key="GridCell.Tab.0.bottom" timestamp="1617501779645">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1618198600190">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="155" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617501779645" />
-    <state width="1398" height="155" key="GridCell.Tab.0.center" timestamp="1617501779644">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1618198600190" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1618198600189">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="155" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1617501779644" />
-    <state width="1398" height="155" key="GridCell.Tab.0.left" timestamp="1617501779643">
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1618198600189" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1618198600188">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="155" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1617501779643" />
-    <state width="1398" height="155" key="GridCell.Tab.0.right" timestamp="1617501779644">
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1618198600188" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1618198600189">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="155" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1617501779644" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1617344150518">
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1618198600189" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1618198600192">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617344150518" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1617344150517">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1618198600192" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1618198600191">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1617344150517" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1617344150517">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1618198600191" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1618198600190">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1617344150517" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1617344150517">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1618198600190" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1618198600191">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1617344150517" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1618198600191" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1618111153263">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1618111153263" />
     <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615095843462">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1615095843462" />
-    <state x="458" y="205" key="extract.method.dialog" timestamp="1616486351646">
+    <state x="458" y="205" key="extract.method.dialog" timestamp="1618110988173">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="205" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1616486351646" />
+    <state x="458" y="205" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1618110988173" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1617444679990">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
