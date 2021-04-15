@@ -11,17 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a965ff-a1f1-47a8-9d9a-d881d3978bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/动态规划/Leetcode53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/动态规划/Leetcode62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/动态规划/Leetcode64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/动态规划/Leetcode746.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-lkr/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode-lkr/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-lkr/多线程/SameThread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-lkr/多线程/ThreadTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode-lkr/多线程/ThreadTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/动态规划/Leetcode5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/Leetcode5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/Leetcode70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/Leetcode70.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +139,7 @@
       <workItem from="1617864378555" duration="1122000" />
       <workItem from="1617962593457" duration="20000" />
       <workItem from="1617975928740" duration="6376000" />
-      <workItem from="1618406410165" duration="1692000" />
+      <workItem from="1618406410165" duration="2797000" />
     </task>
     <servers />
   </component>
